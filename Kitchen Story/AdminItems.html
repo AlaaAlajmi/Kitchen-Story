@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Kitchen Story</title>
+	<link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+
+</head>
+<body>
+	<!--Navbar-->
+	<section>
+		<nav>
+			<div class="navbar">
+				<ul>
+					<li><a href="HomePage.html">Home</a></li>
+					<li><a href="CustomerItems.html">Items</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="HomePage.html">Logout</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+
+	<h2>Product List</h2>
+	<!--Items List-->
+	<section>
+		<div class="bg-top-shadow">
+			<div class="main">
+				<div class="box">
+					<div class="padding">
+						<div class="container_12">
+							<div class="wrapper">
+								<div class="grid_12">
+									<div class="indent-left">
+										<h3>products form: </h3>
+										<p>Insert Product name and quantity for your shopping product list. </p>
+
+										<form name=ShoppingList>
+											<div id="main">
+												<table>
+													<tr>
+														<td><b>Product Id :</b></td>
+														<td><input type=text name="product_id " id="product_id"></td>
+													</tr>
+													<tr>
+														<td><b>Product name :</b></td>
+														<td> <input type=text name="product" id="product"> </td>
+													</tr>
+													<tr>
+														<td><b>Price :</b> </td>
+														<td>  <input type=text name="Discription" id="Discription"> </td>
+													</tr>
+													<tr>
+														<td><b>Availability :</b></td>
+														<td>  <input type=text name="contme" id="contme">  </td>
+													</tr>
+													
+
+													<tr>
+														<td>
+															<input type=button value="Add" onclick="Addclick();">
+														</td>
+														<td>
+															<input type=button value="Update" onclick="Ediclick();">
+														</td>
+														<td>
+															<input type=button value="Delete" onclick="Delclick();">
+														</td>
+													</tr>
+
+												</table>
+
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section>
+
+			<h3>Products List</h3>
+			<table id="Item" style="width:50%">
+				<tr>
+					<th>Prodect Id </th>
+					<th>Prodect Name</th>
+					<th>Price</th>
+					<th>Availability</th>
+				</tr>
+				<tr>
+					<td>01</td>
+					<td>Apple</td>
+					<td>$2.99 </td>
+					<td>4g</td>
+				</tr>
+				<tr>
+					<td>02</td>
+					<td>Orange</td>
+					<td>$2.99 </td>
+					<td>3.5g</td>
+				</tr>
+				<tr>
+					<td>03</td>
+					<td>Banan</td>
+					<td>$4.99 </td>
+					<td>8g</td>
+				</tr>
+			</table>
+			<br>
+			<br>
+
+		</section>
+	</section>
+
+	<script src="Admin.js"></script>
+
+</body>
+</html>
