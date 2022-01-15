@@ -1,0 +1,282 @@
+﻿
+html {
+	background: url(images/bg.png) no-repeat center center fixed; /* <a href='https://pngtree.com/so/grocery'>grocery png from pngtree.com/</a>*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(107,141,86);
+	text-align: center;
+	padding: 40px 5px 20px 5px;
+	margin: auto;
+}
+h3 {
+	text-shadow: 1px 1px white;
+	color: rgb(107,141,86);
+	font-weight: bold;
+	padding: 0;
+}
+h4 {
+	text-shadow: 1px 1px white;
+	color: #BA504D;
+	font-weight: bold;
+	padding: 0;
+}
+.about {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 12px;
+	text-align: center;
+	width: 50%;
+	font-size: 20px;
+	line-height: 1.5;
+	padding: 0;
+}
+button {
+	background-color: #BA504D;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	border-radius: 12px;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	transition-duration: 0.4s;
+}
+button:hover {
+	background-color: #FBB028;
+	color: white;
+}
+.LoginInput {
+	background-color: rgba(180,215,135,0.4);
+	color: white;
+	display: block;
+	margin: 0 auto;
+	border-radius: 12px;
+	padding: 40px 5px 20px 5px;
+	text-align: center;
+	width: 50%;
+}
+label {
+	font-weight: bold;
+	color: #445F3E;
+}
+container {
+	display: block;
+	margin: 0 auto;
+	padding: 40px 5px 20px 5px;
+	text-align: center;
+}
+#PasswordChange {
+	background-color: rgba(180,215,135,0.4);
+	color: white;
+	display: block;
+	margin: 0 auto;
+	border-radius: 12px;
+	padding: 40px 5px 20px 5px;
+	text-align: center;
+	width: 50%;
+}
+table {
+	border-collapse: separate;
+	border: solid rgb(180,215,135) 1px;
+	border-radius: 6px;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+td, th {
+	border-left: solid rgb(180,215,135) 1px;
+	border-top: solid rgb(180,215,135) 1px;
+}
+th {
+	text-align: center;
+	background-color: rgb(180,215,135);
+	color: white;
+}
+td {
+	text-align: center;
+}
+tr {
+	background-color: rgba(180,215,135,0.2);
+}
+.EditButtons {
+	width:20%;
+}
+.contact {
+	background-color: rgba(180,215,135,0.4);
+	color: white;
+	display: block;
+	margin: 0 auto;
+	border-radius: 12px;
+	padding: 40px 5px 20px 5px;
+	text-align: center;
+	width: 40%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: rgb(107,141,86);
+	border: solid rgb(107,141,86);
+	border-radius: 15px;
+	margin:0 auto;
+	padding-left: 200px;
+	
+	
+}
+.navbar li {
+	float: left;
+	padding-right: 20px;
+}
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	margin: 5px 70px;
+	text-decoration: none;
+	font-size: 18px;
+		
+}
+.navbar li a:hover {
+	background-color: #FBB028;
+	border: solid #FBB028;
+	border-radius: 15px;
+}
+#myInput {
+	border: solid rgb(107,141,86);
+	border-radius: 12px;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	display: block;
+	margin: 30px auto 0 auto;
+	width: 50%;
+}
+#confirmImg {
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+	padding: 15px 5px 0 5px;
+}
+
+.shop-item {
+	margin: 70px;
+	
+}
+ul {
+	 list-style: none;
+}
+.shop-item-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #BA504D;
+	border: solid #BA504D;
+	border-radius: 15px;
+	padding: 10px 5px 10px 5px;
+	
+}
+ a {
+	text-decoration: none;
+}
+	.shop-item-image {
+	height: 200px;
+}
+
+.shop-item-details {
+	display: flex;
+	align-items: center;
+	padding: 2px;
+}
+
+.shop-item-price {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+	list-style-type: none;
+	overflow: hidden;
+	color: rgb(107,141,86);
+}
+.shop-item-button {
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 15px;
+	background-color: rgb(107,141,86);
+}
+.shop-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cart-header {
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(107,141,86);
+}
+
+.cart-column {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.cart-row {
+	display: flex;
+}
+
+.cart-item {
+	width: 40%;
+}
+
+.cart-price, .cart-total {
+	width: 20%;
+	font-size: 15px;
+	color: rgb(107,141,86);
+}
+.cart-total-price {
+	color: #BA504D;
+	font-size: 20px;
+	font-weight:bold;
+}
+.cart-quantity {
+	width: 40%;
+}
+
+.cart-item-title {
+	color: rgb(107,141,86);
+	margin-left: 2px;
+	font-size: 20px;
+}
+
+.cart-item-image {
+	width: 75px;
+	height: auto;
+	border-radius: 10px;
+}
+
+
+
+

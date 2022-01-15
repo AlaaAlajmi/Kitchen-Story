@@ -1,0 +1,178 @@
+﻿
+<!Doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Kitchen Story</title>
+    <script src="Customer.js"></script>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+</head>
+<body>
+    <!--Navbar-->
+    <section>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a href="CustomerItems.html">Items</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="About.html">About</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!--SearchBox-->
+    <section>
+        <header class="headstyle">
+            <nav class="searchbox">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for item.." title="Type in a name">
+            </nav>
+        </header>
+    </section>
+    <!--Ites list-->
+    <section>
+        <div id="ItemsList">
+            <h2>Products List</h2>
+            <table id=list></table>
+           
+        </div>
+
+        <ul id="myUL">
+            <section class="container content-section">
+                <div class="shop-items">
+            <li>
+                <div class="shop-item">
+                    <a href="#"><span class="shop-item-title">Orange</span></a>
+                    <!--<a href='https://pngtree.com/so/Orange'>Orange png from pngtree.com/</a>-->
+                    <img class="shop-item-image" src="Images/orange.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3.99</span>
+                    </div>
+                    <button class="shop-item-button" type="button">Add to cart</button>
+                </div>
+            </li>
+            <li>
+                <div class="shop-item">
+                    <a href="#"><span class="shop-item-title">Apple</span></a>
+                    <!--<a href='https://pngtree.com/so/Apple'>Apple png from pngtree.com/</a>-->
+                    <img class="shop-item-image" src="Images/apple.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2.99</span>
+                    </div>
+                    <button class="shop-item-button" type="button">Add to cart</button>
+                </div>
+
+            </li>
+            <li>
+                <div class="shop-item">
+                    <a href="#"><span class="shop-item-title">Watermelon</span></a>
+                    <!--<a href='https://pngtree.com/so/Watermelon'>Watermelon png from pngtree.com/</a>-->
+                    <img class="shop-item-image" src="Images/watermelon.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                    </div>
+                    <button class="shop-item-button" type="button">Add to cart</button>
+                </div>
+            </li>
+            <li>
+                <div class="shop-item">
+                    <a href="#"><span class="shop-item-title">Mango</span></a>
+                    <!--<a href='https://pngtree.com/so/Mango'>Mango png from pngtree.com/</a>-->
+                    <img class="shop-item-image" src="Images/mango.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3.99</span>
+                    </div>
+                    <button class="shop-item-button" type="button">Add to cart</button>
+                </div>
+            </li>
+            <li>
+                <div class="shop-item">
+                    <a href="#"><span class="shop-item-title">Banana</span></a>
+                    <!--<a href='https://pngtree.com/so/banana'>banana png from pngtree.com/</a>-->
+                    <img class="shop-item-image" src="Images/banana.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$4.99</span>
+                    </div>
+                    <button class="shop-item-button" type="button">Add to cart</button>
+                </div>
+            </li>
+            <li>
+                <div class="shop-item">
+                    <a href="#"> <span class="shop-item-title">Strawberry</span></a>
+                    <!--<a href='https://pngtree.com/so/composition'>composition png from pngtree.com/</a>-->
+                    <img class="shop-item-image" src="Images/strawberry.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3.99</span>
+                    </div>
+                    <button class="shop-item-button" type="button">Add to cart</button>
+                </div>
+            </li>
+            </div>
+    </section>
+
+    <!--Cart-->
+    <section>
+        <section class="container content-section">
+            <h2 class="section-header">Item Cart </h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Item</span>
+                <span class="cart-price cart-header cart-column">Price</span>
+                <span class="cart-quantity cart-header cart-column">Amount</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total:</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+        </section>
+    </section>
+    <!--Payment-->
+    <section>
+
+
+
+        <section class="container content-section">
+            <form class="form">
+                <h2 class="section-header">Payment Gateway</h2>
+                <div class="cart-row">
+
+                    <table style="width:50%">
+                       <tr>
+                           <td><label>Name on Card:</label></td>
+                           <td><input type="text" placeholder="Card Holder Name" name="name" required></td>
+                       </tr>
+                         <tr>
+                           <td><label>Card Number:</label></td>
+                           <td><input type="text" placeholder="0000-0000-0000-0000" name="number" required></td>
+                       </tr>
+                         <tr>
+                           <td><label>CVV:</label></td>
+                           <td><input type="text" placeholder="000" name="cvv" required></td>
+                       </tr>
+                         <tr>
+                           <td><label>Expiration Date:</label></td>
+                           <td><input type="text" placeholder="00/00" name="date" required></td>
+                       </tr>
+
+
+                    </table>
+
+
+
+                </div>
+                <br />
+                <button class="btn-purchase" type="button" onclick="next()" style="width:20%">Pay</button>
+            </form>
+        </section>
+
+    </section>
+
+
+
+
+</body>
+</html>
